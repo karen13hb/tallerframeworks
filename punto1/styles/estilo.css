@@ -1,0 +1,20 @@
+.flotar{
+	
+	float:left; 
+	margin-right: 10%;
+}
+#caja1{
+	background-color:#DAF7A6;
+	color: black;
+	border:10%; 
+	border-style: solid;
+	border-color:black;
+}
+
+#caja3{
+	background-color:#DAF7A6;
+	color: black;
+	border:10%; 
+	border-style: solid;
+	border-color:black;
+}

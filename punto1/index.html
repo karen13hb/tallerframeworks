@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<title>OPERACIONES</title>
+<link rel="stylesheet" type="text/css" href="Styles/estilo.css" />
+</head>
+ 
+<body>
+
+<div id="caja1">
+<form>
+    <p></p>
+    <label  for="num1">Ingrese Primer Numero:</label><br><br>
+	<input type="text" id="numuno" >
+	
+	
+</form>
+<br><br>
+<form>
+     <p></p>  
+    <label  for="num2">Ingrese Segundo Numero:</label><br><br>
+	<input type="text" id="numdos" >
+	<br><br>
+</form>
+</div>
+<br><br>
+
+<div id="caja2">
+
+<div class="flotar"  >
+	<form>
+	<input id="sumar" type="button" value="SUMAR" onclick="botones(this)">
+	</form>
+</div>
+
+<div class="flotar"  >
+	<form>
+	<input type="button" value="RESTAR" onclick="botones(this)">
+	</form>
+</div>
+
+<div class="flotar"   >
+	<form>
+	<input type="button" value="MULTIPLICAR" onclick="botones(this)">
+	</form>
+</div>
+
+<div class="flotar"   >
+	<form>
+	<input type="button" value="DIVIDIR" onclick="botones(this)">
+	</form>
+</div>
+
+<div class="flotar"   >
+	<form>
+	<input type="button" value="POTENCIA" onclick="botones(this)">
+	</form>
+</div>
+
+
+</div>
+<br><br>
+
+<div id="caja3">
+<p><strong>RESULTADO</strong></p>
+<p id="resultado"></p>
+<br><br>
+</div>
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
